@@ -1,0 +1,83 @@
+@use '../abstracts/index' as *;
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    min-height: 100vh;
+    justify-content: center;
+
+    @include breakpoint(tablet) {
+        margin-right: 154px;
+        margin-left: 154px;
+    }
+    
+    @include breakpoint(desktop) {
+        margin-right: 490px;
+        margin-left: 490px;
+    }
+
+    &_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    &_selectPlayer {
+        background-color: $azul-oscuro-2;
+        border-radius: 15px;
+        padding: 24px;
+        box-shadow: 0 8px 0 black ;
+
+        &-title {
+            margin-bottom: 24px;
+            color: $gris-1;
+            text-align: center;
+        }
+
+        &-subtitle {
+            margin-top: 16px;
+            color: $gris-1;
+            text-align: center;
+        }
+
+        &-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: $azul-oscuro-1;
+            border-radius: 10px;
+            padding: 8px;
+            cursor: pointer;
+
+
+            &-option {
+                padding: 12px;
+                display: flex;
+                justify-content: center;
+                width: 50%;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    &_newGameCpu {
+        @include button($azul-oscuro-1, $naranja-2, $naranja-1);
+        padding: 17px 32px;
+        border-radius: 15px;
+
+    }
+
+    &_newGamePlayer {
+        @include button($azul-oscuro-1, $azul-claro-2, $azul-claro-1);
+        padding: 17px 32px;
+        border-radius: 15px;
+    }
+}
+
+
+.selected {
+    background-color: $gris-1;
+}
+
+.inicio_selectPlayer-container-option:not(.selected):hover {
+    background-color: $azul-oscuro-2;
+  }

@@ -1,0 +1,12 @@
+@use '../abstracts/index' as *;
+
+html * {
+    margin: 0;
+}
+
+body {
+    font-family: $font-primary;
+    background-color: $azul-oscuro-1;
+    margin: 24px;
+} 
+

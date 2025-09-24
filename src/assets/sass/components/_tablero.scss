@@ -1,0 +1,95 @@
+@use '../abstracts/index' as *;
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+    .casilla {
+        background-color: $azul-oscuro-2;
+        width: 96px;
+        height: 96px;
+        box-shadow: 0 8px 0 #10212a;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        @include breakpoint(tablet) {
+            width: 140px;
+            height: 140px;
+        }
+    }
+}
+
+.casilla.winner-X {
+    background-color: $azul-claro-2;  
+    box-shadow: 0 8px 0 $azul-claro-1;
+}
+
+.casilla.winner-O {
+    background-color: $naranja-2;  
+    box-shadow: 0 8px 0 $naranja-1;
+}
+
+
+.casilla-icon.X {
+    background-image: url("/src/assets/icon-x.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+
+    @include breakpoint(tablet) {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+.casilla-icon.X:hover {
+    background-image: url("/src/assets/icon-x-outline.svg");
+  }
+
+.casilla-icon.O {
+    background-image: url("/src/assets/icon-o.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+
+    @include breakpoint(tablet) {
+        width: 64px;
+        height: 64px;
+    }
+  }
+
+.casilla-icon.O:hover {
+    background-image: url("/src/assets/icon-o-outline.svg");
+}
+
+
+.casilla-icon.X.winner {
+    background-image: url("/src/assets/icon-x-selected.svg");
+    width: 40px;
+    height: 40px;
+
+    @include breakpoint(tablet) {
+        width: 64px;
+        height: 64px;
+    }
+  }
+  
+  .casilla-icon.O.winner {
+    background-image: url("/src/assets/icon-o-selected.svg");
+    width: 40px;
+    height: 40px;
+
+    @include breakpoint(tablet) {
+        width: 64px;
+        height: 64px;
+    }
+  }

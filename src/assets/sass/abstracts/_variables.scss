@@ -1,0 +1,49 @@
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1220px;
+$bp-desktop-xl: 1440px;
+
+//Colors
+$azul-claro-1: #31C3BD;
+$azul-claro-2: #65E9E4;
+$azul-oscuro-1: #1A2A33;
+$azul-oscuro-2: #1F3641;
+$naranja-1: #F2B137;
+$naranja-2: #FFC860;
+$gris-1: #A8BFC9;
+$gris-2: #DBE8ED;
+
+//Fonts
+$font-primary:  "Outfit", sans-serif;
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .heading-L {
+        font-size: 40px;
+        kerning: 2.5px;
+        font-weight: bold;
+    }
+}
+
+.heading-M {
+    font-size: 24px;
+    kerning: 1.5px;
+    font-weight: bold;
+}
+
+.heading-S {
+    font-size: 20px;
+    kerning: 1.25px;
+    font-weight: bold;
+}
+
+.heading-XS {
+    font-size: 16px;
+    kerning: 1px;
+    font-weight: bold;
+}
+
+.cuerpo {
+    font-size: 14px;
+    kerning: 0.8px;
+    font-weight: 500;
+}
