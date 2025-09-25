@@ -6,12 +6,6 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   base: './',
-  server: {
-    watch: {
-      usePolling: true
-    },
-    host: true
-  },
   resolve: {
     alias: {
       // eslint-disable-next-line no-undef
