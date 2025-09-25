@@ -10,8 +10,8 @@ Diseño responsive para resolución mobile(375px), tablet(768px) y desktop(1440p
 
 
 ### 🔗 Links
-- [Repositorio Git](https://github.com/braismarquez2025/tic-tac-toe-game)
-- [URL del sitio en vivo]()
+- [URl de la solución](https://www.frontendmentor.io/solutions/solution-tic-tac-toe-game-2kfet5Xl_m)
+- [URL del sitio en vivo](https://braismarquez2025.github.io/tic-tac-toe-game/)
 
 
 ## 🚀 Mi proceso
