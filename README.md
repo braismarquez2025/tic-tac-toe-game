@@ -10,7 +10,7 @@ Diseño responsive para resolución mobile(375px), tablet(768px) y desktop(1440p
 
 
 ### 🔗 Links
-- [Repositorio Git](https://github.com/braismarquez2025/BMI-Calculator)
+- [Repositorio Git](https://github.com/braismarquez2025/tic-tac-toe-game)
 - [URL del sitio en vivo]()
 
 
@@ -25,7 +25,7 @@ Diseño responsive para resolución mobile(375px), tablet(768px) y desktop(1440p
 He practicado un montón la lógica de React con este proyecto ya que he tenido que utilizar hooks que desconocía. El que más me ha servido es useState, pero he incorporado también useEffect o useCallback. Lo que más tiempo me ha llevado ha sido establecer los iconos de la x y la o una vez formado el tres en raya, además del hover, es la parte que más me ha liado sin duda. La conclusión que saco es que siempre es mejor crear un componente al cual pasarle unos parámetros.  
 
 ### 📈 Desarrollo continuo
-Me voy a especializar con React hasta conseguir un codigo lo mejor estructurado posible, evitando codigo que no sea reutilizable o repetido. 
+Me voy a especializar con React hasta conseguir un codigo lo mejor estructurado posible, evitando codigo que no sea reutilizable o repetido. Además voy a realizar los siguientes proyectos con TypeScript.
 
 
 ### ✌️ Autor 
