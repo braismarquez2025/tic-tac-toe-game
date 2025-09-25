@@ -4,8 +4,8 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/tic-tac-toe-game/',
   plugins: [react()],
-  base: './',
   resolve: {
     alias: {
       // eslint-disable-next-line no-undef
